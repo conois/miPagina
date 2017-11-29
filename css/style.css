@@ -17,14 +17,13 @@
 	background: #29ABA4; 
 	width: 100%;
 	margin:auto;
-
+	color: #E9E1D6;
 }
 header{
 	font-family: 'PT Sans Narrow', sans-serif;
 	background: #354458; 
 	color: #E9E1D6; 
 	padding:20px;
- 
 }
 
 header div{
@@ -57,8 +56,8 @@ section div{
 	height: 400px;
 	width: 100%;
 	outline: 2px solid white;
-	background-image: url(../img/ef873503-5f49-4f28-ab41-4d0cf1a77b0a.jpg);
-	background-size: 100%;
+	background-image: url(../img/grrrr.jpg);
+	background-size: cover;
 }
 
 .second{
@@ -92,20 +91,17 @@ section div{
 	text-align: center;
 	padding-left: 0px;
 	text-align: justify;
-
 }
 
 button{
 	
 	height: 40px;
 	width: 150px;
-	border: 1px solid #EB7260;
-	background: #3A9AD9;  
+	border: 1px solid #FFF;
+	background: #354458;  
 	color: #E9E0D6; 
 	border-radius: 5px;
 	font-size: 16px;
-
-
 }
 
 section article img{
@@ -141,6 +137,8 @@ footer{
 	section div{
 		height: 300px;
 		outline: 2px solid white;
+		background-size: cover;
+		background-position: center;
 	}
 	
 	.parrafo{
@@ -154,9 +152,12 @@ footer{
 	.parrafoUno{
 		padding-left: 20px;
 	}
-
+	.subtitulo{
+		padding-left: 20px;
+	}
+	
 	button{
-		margin-left: 20px;
+		margin-left: 100px;
 	}
 }
 
